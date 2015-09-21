@@ -1,0 +1,11 @@
+
+
+Started GET "/users" for ::1 at 2015-09-21 16:12:25 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (6.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (1.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (100.4ms)
+Completed 200 OK in 11560ms (Views: 11407.7ms | ActiveRecord: 72.5ms)
+
+
+Started GET "/assets/users.self-9f744e7ff4ac9597aa98cd521ef9c6068a06387d5e5010df4df1d0ca9e8ef654.css?body=1" for ::1 at 2015-09-21 16:12:39 -0700

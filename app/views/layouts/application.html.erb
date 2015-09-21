@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reed Basketball Attendance</title> <!check chapter 3 of Hartl for dynamic title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <!take out following header class into partial? check tealeaf>
+  <header class="navbar navbar-default">
+      <div class="container">
+        <nav>
+          <ul class="nav navbar-nav navbar-left">
+            <li><%= link_to 'Home', users_url %></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to 'About', about_url, class: 'btn btn-primary-outline' %></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <%= yield %>
+    </div>
+  </body>
+</html>
