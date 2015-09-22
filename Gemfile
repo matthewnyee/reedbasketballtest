@@ -35,6 +35,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #ADDED BY MATT YEE
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
+gem 'whenever', :require => false
+gem 'crono'
 #ADDED BY MATT YEE
 
 group :development, :test do

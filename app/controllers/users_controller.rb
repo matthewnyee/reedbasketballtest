@@ -1,6 +1,10 @@
 class UsersController < ApplicationController
   protect_from_forgery
 
+  def reset_rsvp
+    User.update_all('status' => 'changed')
+  end
+
   def index
     @users = User.all
     next_game
