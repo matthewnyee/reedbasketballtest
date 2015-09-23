@@ -22,9 +22,9 @@ end
 
 Crono.perform(TestJob).every 2.seconds
 Crono.perform(ResetrsvpJob).every 2.seconds
-
-Crono.perform(TestJob).every 1.minute
-Crono.perform(ResetrsvpJob).every 1.minute
+# 
+# Crono.perform(TestJob).every 1.minute
+# Crono.perform(ResetrsvpJob).every 1.minute
 
 
 #
