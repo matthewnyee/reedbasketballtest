@@ -38,6 +38,9 @@ class UsersController < ApplicationController
       if params[:user][:status]
         @user.status = params[:user][:status]
       end
+      if params[:user][:email_address]
+        @user.email_address = params[:user][:email_address]
+      end
       @user.save
     end
     redirect_to users_url

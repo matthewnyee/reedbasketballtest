@@ -20,9 +20,11 @@ class TestJob
   end
 end
 
-Crono.perform(TestJob).every 2.seconds
-Crono.perform(ResetrsvpJob).every 2.seconds
-# 
+# Crono.perform(TestJob).every 100.seconds
+# Crono.perform(ResetrsvpJob).every 100.seconds
+Crono.perform(TestemailJob).every 10.seconds
+Crono.perform(ReminderEmailJob).every 10.seconds
+#
 # Crono.perform(TestJob).every 1.minute
 # Crono.perform(ResetrsvpJob).every 1.minute
 
