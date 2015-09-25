@@ -7,12 +7,12 @@ class ReminderEmailJob < ActiveJob::Base
     @users = User.all
     @users.each do |user|
       #if user.exempt? != false ##keep an exempt list
-      # if user.email_address.include? '@'
+       if user.email_address.include? '@'
          ReminderMailer.reminder_email(user).deliver_now
-      # else
-      #   next
-      #   #no email address or invalid email address
-      # end
+       else
+         next
+      #   no email address or invalid email address
+       end
     end
   end
 end

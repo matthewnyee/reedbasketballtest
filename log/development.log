@@ -8826,3 +8826,543 @@ Processing by UsersController#index as HTML
   [1m[35mUser Load (1.3ms)[0m  SELECT "users".* FROM "users"
   Rendered users/index.html.erb within layouts/application (4.9ms)
 Completed 200 OK in 212ms (Views: 209.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/users" for ::1 at 2015-09-24 14:20:57 -0700
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (49.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (68.1ms)
+Completed 200 OK in 387ms (Views: 293.3ms | ActiveRecord: 49.6ms)
+
+
+Started GET "/assets/custom.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-24 14:20:58 -0700
+
+
+Started GET "/assets/users.self-9f744e7ff4ac9597aa98cd521ef9c6068a06387d5e5010df4df1d0ca9e8ef654.css?body=1" for ::1 at 2015-09-24 14:20:58 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-24 14:20:58 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-24 14:20:58 -0700
+
+
+Started GET "/assets/application.self-2300050a5d7e4407dd6dcb4667f04d4ccdb404bb8eaf240eb08cb83c0bdc4476.css?body=1" for ::1 at 2015-09-24 14:20:58 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2015-09-24 14:20:58 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-24 14:20:58 -0700
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2015-09-24 14:20:58 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2015-09-24 14:20:58 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2015-09-24 14:20:58 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2015-09-24 14:20:58 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2015-09-24 14:20:58 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2015-09-24 14:20:58 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2015-09-24 14:20:58 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2015-09-24 14:20:58 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2015-09-24 14:20:58 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2015-09-24 14:20:58 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2015-09-24 14:20:58 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2015-09-24 14:20:58 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-24 14:20:58 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-09-24 14:20:58 -0700
+
+
+Started GET "/users/42/edit" for ::1 at 2015-09-24 14:20:59 -0700
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"42"}
+  [1m[35mUser Load (37.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 42]]
+  Rendered users/edit.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 239ms (Views: 199.3ms | ActiveRecord: 37.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (1.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (18.6ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'crono_jobs'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (6.3ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36mUser Load (14.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[36mCrono::CronoJob Load (39.6ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1[0m  [["job_id", "Perform ReminderEmailJob every 30 seconds"]]
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mCrono::CronoJob Exists (0.7ms)[0m  [1mSELECT  1 AS one FROM "crono_jobs" WHERE "crono_jobs"."job_id" = 'Perform ReminderEmailJob every 30 seconds' LIMIT 1[0m
+  [1m[35mSQL (43.1ms)[0m  INSERT INTO "crono_jobs" ("job_id", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["job_id", "Perform ReminderEmailJob every 30 seconds"], ["created_at", "2015-09-25 17:38:40.769926"], ["updated_at", "2015-09-25 17:38:40.769926"]]
+  [1m[36m (409.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users"
+  Rendered reminder_mailer/reminder_email.html.erb within layouts/mailer (20.2ms)
+
+ReminderMailer#reminder_email: processed outbound mail in 540.9ms
+
+Sent mail to matt@alumni.reed.edu (725.8ms)
+Date: Fri, 25 Sep 2015 10:39:12 -0700
+From: notifications@example.com
+To: matt@alumni.reed.edu
+Message-ID: <560586c0443f_13b13ffb01a7c524200f0@Matts-MacBook-Pro.local.mail>
+Subject: reminder email
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    bob
+matt@alumni.reed.edu
+No
+
+reminder email
+
+  </body>
+</html>
+
+  Rendered reminder_mailer/reminder_email.html.erb within layouts/mailer (0.1ms)
+
+ReminderMailer#reminder_email: processed outbound mail in 6.1ms
+
+Sent mail to matt@alumni.reed.edu (33.9ms)
+Date: Fri, 25 Sep 2015 10:39:12 -0700
+From: notifications@example.com
+To: matt@alumni.reed.edu
+Message-ID: <560586c0a6d52_13b13ffb01a7c524201b6@Matts-MacBook-Pro.local.mail>
+Subject: reminder email
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    matt
+matt@alumni.reed.edu
+NoResponse
+
+reminder email
+
+  </body>
+</html>
+
+  Rendered reminder_mailer/reminder_email.html.erb within layouts/mailer (0.1ms)
+
+ReminderMailer#reminder_email: processed outbound mail in 11.0ms
+
+Sent mail to matt@alumni.reed.edu (82.6ms)
+Date: Fri, 25 Sep 2015 10:39:12 -0700
+From: notifications@example.com
+To: matt@alumni.reed.edu
+Message-ID: <560586c0b1f42_13b13ffb01a7c524202ad@Matts-MacBook-Pro.local.mail>
+Subject: reminder email
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    tom
+matt@alumni.reed.edu
+Yes
+
+reminder email
+
+  </body>
+</html>
+
+  [1m[36mCrono::CronoJob Load (64.2ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mCrono::CronoJob Exists (71.6ms)[0m  [1mSELECT  1 AS one FROM "crono_jobs" WHERE ("crono_jobs"."job_id" = 'Perform ReminderEmailJob every 30 seconds' AND "crono_jobs"."id" != 9) LIMIT 1[0m
+  [1m[35mSQL (18.2ms)[0m  UPDATE "crono_jobs" SET "last_performed_at" = $1, "log" = $2, "healthy" = $3, "updated_at" = $4 WHERE "crono_jobs"."id" = $5  [["last_performed_at", "2015-09-25 17:39:11.227042"], ["log", "I, [2015-09-25T10:39:11.226971 #5041]  INFO -- : Perform ReminderEmailJob\nI, [2015-09-25T10:39:12.810825 #5041]  INFO -- : Finished ReminderEmailJob in 1.58 seconds\n"], ["healthy", "t"], ["updated_at", "2015-09-25 17:39:12.954497"], ["id", 9]]
+  [1m[36m (33.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users"
+  Rendered reminder_mailer/reminder_email.html.erb within layouts/mailer (0.1ms)
+
+ReminderMailer#reminder_email: processed outbound mail in 8.6ms
+
+Sent mail to matt@alumni.reed.edu (52.9ms)
+Date: Fri, 25 Sep 2015 10:39:41 -0700
+From: notifications@example.com
+To: matt@alumni.reed.edu
+Message-ID: <560586dd43f25_13b13ffb03a69a4420323@Matts-MacBook-Pro.local.mail>
+Subject: reminder email
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    bob
+matt@alumni.reed.edu
+No
+
+reminder email
+
+  </body>
+</html>
+
+  Rendered reminder_mailer/reminder_email.html.erb within layouts/mailer (0.2ms)
+
+ReminderMailer#reminder_email: processed outbound mail in 7.5ms
+
+Sent mail to matt@alumni.reed.edu (11.6ms)
+Date: Fri, 25 Sep 2015 10:39:41 -0700
+From: notifications@example.com
+To: matt@alumni.reed.edu
+Message-ID: <560586dd530df_13b13ffb03a69a44204e9@Matts-MacBook-Pro.local.mail>
+Subject: reminder email
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    matt
+matt@alumni.reed.edu
+NoResponse
+
+reminder email
+
+  </body>
+</html>
+
+  Rendered reminder_mailer/reminder_email.html.erb within layouts/mailer (0.1ms)
+
+ReminderMailer#reminder_email: processed outbound mail in 8.7ms
+
+Sent mail to matt@alumni.reed.edu (8.3ms)
+Date: Fri, 25 Sep 2015 10:39:41 -0700
+From: notifications@example.com
+To: matt@alumni.reed.edu
+Message-ID: <560586dd60296_13b13ffb03a69a4420511@Matts-MacBook-Pro.local.mail>
+Subject: reminder email
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    tom
+matt@alumni.reed.edu
+Yes
+
+reminder email
+
+  </body>
+</html>
+
+  [1m[36mCrono::CronoJob Load (0.8ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mCrono::CronoJob Exists (1.4ms)[0m  [1mSELECT  1 AS one FROM "crono_jobs" WHERE ("crono_jobs"."job_id" = 'Perform ReminderEmailJob every 30 seconds' AND "crono_jobs"."id" != 9) LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "crono_jobs" SET "last_performed_at" = $1, "log" = $2, "updated_at" = $3 WHERE "crono_jobs"."id" = $4  [["last_performed_at", "2015-09-25 17:39:41.228323"], ["log", "I, [2015-09-25T10:39:11.226971 #5041]  INFO -- : Perform ReminderEmailJob\nI, [2015-09-25T10:39:12.810825 #5041]  INFO -- : Finished ReminderEmailJob in 1.58 seconds\nI, [2015-09-25T10:39:41.228277 #5041]  INFO -- : Perform ReminderEmailJob\nI, [2015-09-25T10:39:41.401571 #5041]  INFO -- : Finished ReminderEmailJob in 0.17 seconds\n"], ["updated_at", "2015-09-25 17:39:41.418720"], ["id", 9]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[36mCrono::CronoJob Load (1.0ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1[0m  [["job_id", "Perform ReminderEmailJob every 20 seconds"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mCrono::CronoJob Exists (9.7ms)[0m  [1mSELECT  1 AS one FROM "crono_jobs" WHERE "crono_jobs"."job_id" = 'Perform ReminderEmailJob every 20 seconds' LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "crono_jobs" ("job_id", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["job_id", "Perform ReminderEmailJob every 20 seconds"], ["created_at", "2015-09-25 17:41:04.554106"], ["updated_at", "2015-09-25 17:41:04.554106"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users"
+  Rendered reminder_mailer/reminder_email.html.erb within layouts/mailer (2.8ms)
+
+ReminderMailer#reminder_email: processed outbound mail in 473.7ms
+
+Sent mail to matt@alumni.reed.edu (309.2ms)
+Date: Fri, 25 Sep 2015 10:41:25 -0700
+From: notifications@example.com
+To: matt@alumni.reed.edu
+Message-ID: <560587452f668_17133ff7278181bc56516@Matts-MacBook-Pro.local.mail>
+Subject: reminder email
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    bob
+matt@alumni.reed.edu
+No
+
+reminder email
+
+  </body>
+</html>
+
+  Rendered reminder_mailer/reminder_email.html.erb within layouts/mailer (0.1ms)
+
+ReminderMailer#reminder_email: processed outbound mail in 6.4ms
+
+Sent mail to matt@alumni.reed.edu (14.1ms)
+Date: Fri, 25 Sep 2015 10:41:25 -0700
+From: notifications@example.com
+To: matt@alumni.reed.edu
+Message-ID: <560587456cc58_17133ff7278181bc56667@Matts-MacBook-Pro.local.mail>
+Subject: reminder email
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    matt
+matt@alumni.reed.edu
+NoResponse
+
+reminder email
+
+  </body>
+</html>
+
+  Rendered reminder_mailer/reminder_email.html.erb within layouts/mailer (0.1ms)
+
+ReminderMailer#reminder_email: processed outbound mail in 6.2ms
+
+Sent mail to matt@alumni.reed.edu (17.8ms)
+Date: Fri, 25 Sep 2015 10:41:25 -0700
+From: notifications@example.com
+To: matt@alumni.reed.edu
+Message-ID: <5605874571e30_17133ff7278181bc567d@Matts-MacBook-Pro.local.mail>
+Subject: reminder email
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    tom
+matt@alumni.reed.edu
+Yes
+
+reminder email
+
+  </body>
+</html>
+
+  [1m[36mCrono::CronoJob Load (1.3ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mCrono::CronoJob Exists (1.8ms)[0m  [1mSELECT  1 AS one FROM "crono_jobs" WHERE ("crono_jobs"."job_id" = 'Perform ReminderEmailJob every 20 seconds' AND "crono_jobs"."id" != 10) LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  UPDATE "crono_jobs" SET "last_performed_at" = $1, "log" = $2, "healthy" = $3, "updated_at" = $4 WHERE "crono_jobs"."id" = $5  [["last_performed_at", "2015-09-25 17:41:24.559307"], ["log", "I, [2015-09-25T10:41:24.559185 #5907]  INFO -- : Perform ReminderEmailJob\nI, [2015-09-25T10:41:25.483510 #5907]  INFO -- : Finished ReminderEmailJob in 0.92 seconds\n"], ["healthy", "t"], ["updated_at", "2015-09-25 17:41:25.500848"], ["id", 10]]
+  [1m[36m (4.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (94.3ms)[0m  BEGIN
+  [1m[36mSQL (55.5ms)[0m  [1mINSERT INTO "users" ("name", "email_address", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "bad email"], ["email_address", "not a real address"], ["created_at", "2015-09-25 17:51:25.265743"], ["updated_at", "2015-09-25 17:51:25.265743"]]
+  [1m[35m (14.8ms)[0m  COMMIT
+  [1m[36mUser Load (34.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[36mCrono::CronoJob Load (1.1ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1[0m  [["job_id", "Perform ReminderEmailJob every 20 seconds"]]
+  [1m[35mUser Load (1.1ms)[0m  SELECT "users".* FROM "users"
+  Rendered reminder_mailer/reminder_email.html.erb within layouts/mailer (2.7ms)
+
+ReminderMailer#reminder_email: processed outbound mail in 348.1ms
+
+Sent mail to matt@alumni.reed.edu (213.4ms)
+Date: Fri, 25 Sep 2015 10:51:54 -0700
+From: notifications@example.com
+To: matt@alumni.reed.edu
+Message-ID: <560589ba6491a_289b3fdfbf0b56249553c@Matts-MacBook-Pro.local.mail>
+Subject: reminder email
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    bob
+matt@alumni.reed.edu
+No
+
+reminder email
+
+  </body>
+</html>
+
+  Rendered reminder_mailer/reminder_email.html.erb within layouts/mailer (0.1ms)
+
+ReminderMailer#reminder_email: processed outbound mail in 6.7ms
+
+Sent mail to matt@alumni.reed.edu (10.8ms)
+Date: Fri, 25 Sep 2015 10:51:54 -0700
+From: notifications@example.com
+To: matt@alumni.reed.edu
+Message-ID: <560589ba9689c_289b3fdfbf0b562495697@Matts-MacBook-Pro.local.mail>
+Subject: reminder email
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    matt
+matt@alumni.reed.edu
+NoResponse
+
+reminder email
+
+  </body>
+</html>
+
+  Rendered reminder_mailer/reminder_email.html.erb within layouts/mailer (0.1ms)
+
+ReminderMailer#reminder_email: processed outbound mail in 6.2ms
+
+Sent mail to matt@alumni.reed.edu (17.3ms)
+Date: Fri, 25 Sep 2015 10:51:54 -0700
+From: notifications@example.com
+To: matt@alumni.reed.edu
+Message-ID: <560589ba9ae11_289b3fdfbf0b562495785@Matts-MacBook-Pro.local.mail>
+Subject: reminder email
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    tom
+matt@alumni.reed.edu
+Yes
+
+reminder email
+
+  </body>
+</html>
+
+  [1m[36mCrono::CronoJob Load (1.0ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mCrono::CronoJob Exists (29.4ms)[0m  [1mSELECT  1 AS one FROM "crono_jobs" WHERE ("crono_jobs"."job_id" = 'Perform ReminderEmailJob every 20 seconds' AND "crono_jobs"."id" != 10) LIMIT 1[0m
+  [1m[35mSQL (0.8ms)[0m  UPDATE "crono_jobs" SET "last_performed_at" = $1, "log" = $2, "updated_at" = $3 WHERE "crono_jobs"."id" = $4  [["last_performed_at", "2015-09-25 17:51:53.989199"], ["log", "I, [2015-09-25T10:41:24.559185 #5907]  INFO -- : Perform ReminderEmailJob\nI, [2015-09-25T10:41:25.483510 #5907]  INFO -- : Finished ReminderEmailJob in 0.92 seconds\nI, [2015-09-25T10:51:53.989146 #10395]  INFO -- : Perform ReminderEmailJob\nI, [2015-09-25T10:51:54.650854 #10395]  INFO -- : Finished ReminderEmailJob in 0.66 seconds\n"], ["updated_at", "2015-09-25 17:51:54.744245"], ["id", 10]]
+  [1m[36m (7.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (6.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered reminder_mailer/reminder_email.html.erb within layouts/mailer (0.1ms)
+
+ReminderMailer#reminder_email: processed outbound mail in 12.2ms
+
+Sent mail to matt@alumni.reed.edu (38.9ms)
+Date: Fri, 25 Sep 2015 10:52:14 -0700
+From: notifications@example.com
+To: matt@alumni.reed.edu
+Message-ID: <560589ce12230_289b3fdfc0f17dec958ec@Matts-MacBook-Pro.local.mail>
+Subject: reminder email
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    bob
+matt@alumni.reed.edu
+No
+
+reminder email
+
+  </body>
+</html>
+
+  Rendered reminder_mailer/reminder_email.html.erb within layouts/mailer (0.2ms)
+
+ReminderMailer#reminder_email: processed outbound mail in 18.7ms
+
+Sent mail to matt@alumni.reed.edu (58.3ms)
+Date: Fri, 25 Sep 2015 10:52:14 -0700
+From: notifications@example.com
+To: matt@alumni.reed.edu
+Message-ID: <560589ce209dd_289b3fdfc0f17dec959bf@Matts-MacBook-Pro.local.mail>
+Subject: reminder email
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    matt
+matt@alumni.reed.edu
+NoResponse
+
+reminder email
+
+  </body>
+</html>
+
+  Rendered reminder_mailer/reminder_email.html.erb within layouts/mailer (0.1ms)
+
+ReminderMailer#reminder_email: processed outbound mail in 7.8ms
+
+Sent mail to matt@alumni.reed.edu (42.9ms)
+Date: Fri, 25 Sep 2015 10:52:14 -0700
+From: notifications@example.com
+To: matt@alumni.reed.edu
+Message-ID: <560589ce31c41_289b3fdfc0f17dec9605@Matts-MacBook-Pro.local.mail>
+Subject: reminder email
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    tom
+matt@alumni.reed.edu
+Yes
+
+reminder email
+
+  </body>
+</html>
+
+  [1m[36mCrono::CronoJob Load (1.0ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mCrono::CronoJob Exists (1.9ms)[0m  [1mSELECT  1 AS one FROM "crono_jobs" WHERE ("crono_jobs"."job_id" = 'Perform ReminderEmailJob every 20 seconds' AND "crono_jobs"."id" != 10) LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "crono_jobs" SET "last_performed_at" = $1, "log" = $2, "updated_at" = $3 WHERE "crono_jobs"."id" = $4  [["last_performed_at", "2015-09-25 17:52:13.990643"], ["log", "I, [2015-09-25T10:41:24.559185 #5907]  INFO -- : Perform ReminderEmailJob\nI, [2015-09-25T10:41:25.483510 #5907]  INFO -- : Finished ReminderEmailJob in 0.92 seconds\nI, [2015-09-25T10:51:53.989146 #10395]  INFO -- : Perform ReminderEmailJob\nI, [2015-09-25T10:51:54.650854 #10395]  INFO -- : Finished ReminderEmailJob in 0.66 seconds\nI, [2015-09-25T10:52:13.990548 #10395]  INFO -- : Perform ReminderEmailJob\nI, [2015-09-25T10:52:14.241737 #10395]  INFO -- : Finished ReminderEmailJob in 0.25 seconds\n"], ["updated_at", "2015-09-25 17:52:14.265193"], ["id", 10]]
+  [1m[36m (20.7ms)[0m  [1mCOMMIT[0m
