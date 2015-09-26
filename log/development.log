@@ -9367,3 +9367,175 @@ reminder email
   [1m[35mSQL (0.5ms)[0m  UPDATE "crono_jobs" SET "last_performed_at" = $1, "log" = $2, "updated_at" = $3 WHERE "crono_jobs"."id" = $4  [["last_performed_at", "2015-09-25 17:52:13.990643"], ["log", "I, [2015-09-25T10:41:24.559185 #5907]  INFO -- : Perform ReminderEmailJob\nI, [2015-09-25T10:41:25.483510 #5907]  INFO -- : Finished ReminderEmailJob in 0.92 seconds\nI, [2015-09-25T10:51:53.989146 #10395]  INFO -- : Perform ReminderEmailJob\nI, [2015-09-25T10:51:54.650854 #10395]  INFO -- : Finished ReminderEmailJob in 0.66 seconds\nI, [2015-09-25T10:52:13.990548 #10395]  INFO -- : Perform ReminderEmailJob\nI, [2015-09-25T10:52:14.241737 #10395]  INFO -- : Finished ReminderEmailJob in 0.25 seconds\n"], ["updated_at", "2015-09-25 17:52:14.265193"], ["id", 10]]
   [1m[36m (20.7ms)[0m  [1mCOMMIT[0m
   [1m[36mUser Load (2.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+
+
+Started GET "/users" for ::1 at 2015-09-25 22:54:26 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (1.6ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (61.6ms)
+Completed 200 OK in 1733ms (Views: 1667.4ms | ActiveRecord: 27.4ms)
+  [1m[36mCrono::CronoJob Load (51.1ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1[0m  [["job_id", "Perform ResetrsvpJob every 7 days on Sunday"]]
+  [1m[35m (13.3ms)[0m  BEGIN
+  [1m[36mCrono::CronoJob Exists (14.3ms)[0m  [1mSELECT  1 AS one FROM "crono_jobs" WHERE "crono_jobs"."job_id" = 'Perform ResetrsvpJob every 7 days on Sunday' LIMIT 1[0m
+  [1m[35mSQL (69.2ms)[0m  INSERT INTO "crono_jobs" ("job_id", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["job_id", "Perform ResetrsvpJob every 7 days on Sunday"], ["created_at", "2015-09-25 23:03:24.805292"], ["updated_at", "2015-09-25 23:03:24.805292"]]
+  [1m[36m (339.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mCrono::CronoJob Load (0.7ms)[0m  SELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1  [["job_id", "Perform ReminderEmailJob every 7 days at 04:30 on Saturday"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mCrono::CronoJob Exists (0.5ms)[0m  SELECT  1 AS one FROM "crono_jobs" WHERE "crono_jobs"."job_id" = 'Perform ReminderEmailJob every 7 days at 04:30 on Saturday' LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "crono_jobs" ("job_id", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["job_id", "Perform ReminderEmailJob every 7 days at 04:30 on Saturday"], ["created_at", "2015-09-25 23:03:25.238824"], ["updated_at", "2015-09-25 23:03:25.238824"]]
+  [1m[35m (12.5ms)[0m  COMMIT
+  [1m[36mCrono::CronoJob Load (0.6ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1[0m  [["job_id", "Perform ReminderEmailJob every 7 days at 11:06 on Friday"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mCrono::CronoJob Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "crono_jobs" WHERE "crono_jobs"."job_id" = 'Perform ReminderEmailJob every 7 days at 11:06 on Friday' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "crono_jobs" ("job_id", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["job_id", "Perform ReminderEmailJob every 7 days at 11:06 on Friday"], ["created_at", "2015-09-25 23:03:25.258740"], ["updated_at", "2015-09-25 23:03:25.258740"]]
+  [1m[36m (13.7ms)[0m  [1mCOMMIT[0m
+  [1m[36mCrono::CronoJob Load (1.6ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1[0m  [["job_id", "Perform ResetrsvpJob every 7 days on Sunday"]]
+  [1m[35mCrono::CronoJob Load (0.7ms)[0m  SELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1  [["job_id", "Perform ReminderEmailJob every 7 days at 04:30 on Saturday"]]
+  [1m[36mCrono::CronoJob Load (0.4ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1[0m  [["job_id", "Perform ReminderEmailJob every 7 days at 11:15 on Friday"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mCrono::CronoJob Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "crono_jobs" WHERE "crono_jobs"."job_id" = 'Perform ReminderEmailJob every 7 days at 11:15 on Friday' LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "crono_jobs" ("job_id", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["job_id", "Perform ReminderEmailJob every 7 days at 11:15 on Friday"], ["created_at", "2015-09-25 23:11:19.774757"], ["updated_at", "2015-09-25 23:11:19.774757"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[36mCrono::CronoJob Load (1.2ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1[0m  [["job_id", "Perform ResetrsvpJob every 7 days on Sunday"]]
+  [1m[35mCrono::CronoJob Load (0.5ms)[0m  SELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1  [["job_id", "Perform ReminderEmailJob every 7 days at 04:30 on Saturday"]]
+  [1m[36mCrono::CronoJob Load (1.0ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1[0m  [["job_id", "Perform ResetrsvpJob every 7 days on Sunday"]]
+  [1m[35mCrono::CronoJob Load (0.5ms)[0m  SELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1  [["job_id", "Perform ReminderEmailJob every 7 days at 04:30 on Saturday"]]
+  [1m[36mCrono::CronoJob Load (0.4ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1[0m  [["job_id", "Perform ReminderEmailJob every 1 day at 11:13"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mCrono::CronoJob Exists (0.6ms)[0m  [1mSELECT  1 AS one FROM "crono_jobs" WHERE "crono_jobs"."job_id" = 'Perform ReminderEmailJob every 1 day at 11:13' LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "crono_jobs" ("job_id", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["job_id", "Perform ReminderEmailJob every 1 day at 11:13"], ["created_at", "2015-09-25 23:12:09.374470"], ["updated_at", "2015-09-25 23:12:09.374470"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[36mCrono::CronoJob Load (1.4ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1[0m  [["job_id", "Perform ResetrsvpJob every 7 days on Sunday"]]
+  [1m[35mCrono::CronoJob Load (0.5ms)[0m  SELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1  [["job_id", "Perform ReminderEmailJob every 7 days at 04:30 on Saturday"]]
+  [1m[36mCrono::CronoJob Load (0.3ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1[0m  [["job_id", "Perform ReminderEmailJob every 7 days at 00:01 on Saturday"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mCrono::CronoJob Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "crono_jobs" WHERE "crono_jobs"."job_id" = 'Perform ReminderEmailJob every 7 days at 00:01 on Saturday' LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "crono_jobs" ("job_id", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["job_id", "Perform ReminderEmailJob every 7 days at 00:01 on Saturday"], ["created_at", "2015-09-25 23:12:41.946764"], ["updated_at", "2015-09-25 23:12:41.946764"]]
+  [1m[36m (14.0ms)[0m  [1mCOMMIT[0m
+  [1m[36mCrono::CronoJob Load (0.9ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1[0m  [["job_id", "Perform ResetrsvpJob every 7 days on Sunday"]]
+  [1m[35mCrono::CronoJob Load (0.5ms)[0m  SELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1  [["job_id", "Perform ReminderEmailJob every 7 days at 04:30 on Saturday"]]
+  [1m[36mCrono::CronoJob Load (0.4ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1[0m  [["job_id", "Perform ReminderEmailJob every 7 days at 23:16 on Friday"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mCrono::CronoJob Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "crono_jobs" WHERE "crono_jobs"."job_id" = 'Perform ReminderEmailJob every 7 days at 23:16 on Friday' LIMIT 1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "crono_jobs" ("job_id", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["job_id", "Perform ReminderEmailJob every 7 days at 23:16 on Friday"], ["created_at", "2015-09-25 23:14:21.008986"], ["updated_at", "2015-09-25 23:14:21.008986"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[36mCrono::CronoJob Load (18.2ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1[0m  [["job_id", "Perform ResetrsvpJob every 7 days on Sunday"]]
+  [1m[35mCrono::CronoJob Load (0.6ms)[0m  SELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1  [["job_id", "Perform ReminderEmailJob every 7 days at 04:30 on Saturday"]]
+  [1m[36mCrono::CronoJob Load (0.5ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1[0m  [["job_id", "Perform ReminderEmailJob every 7 days at 00:01 on Saturday"]]
+  [1m[35mUser Load (1.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered reminder_mailer/reminder_email.html.erb within layouts/mailer (2.9ms)
+
+ReminderMailer#reminder_email: processed outbound mail in 1659.4ms
+
+Sent mail to matt@alumni.reed.edu (576.3ms)
+Date: Sat, 26 Sep 2015 00:01:01 -0700
+From: notifications@example.com
+To: matt@alumni.reed.edu
+Message-ID: <560642ade3a63_167993fc30a661608407ac@Matts-MacBook-Pro.local.mail>
+Subject: reminder email
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    bob
+matt@alumni.reed.edu
+No
+
+reminder email
+
+  </body>
+</html>
+
+  Rendered reminder_mailer/reminder_email.html.erb within layouts/mailer (0.1ms)
+
+ReminderMailer#reminder_email: processed outbound mail in 6.2ms
+
+Sent mail to matt@alumni.reed.edu (362.4ms)
+Date: Sat, 26 Sep 2015 00:01:02 -0700
+From: notifications@example.com
+To: matt@alumni.reed.edu
+Message-ID: <560642ae79b7e_167993fc30a661608408e@Matts-MacBook-Pro.local.mail>
+Subject: reminder email
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    matt
+matt@alumni.reed.edu
+NoResponse
+
+reminder email
+
+  </body>
+</html>
+
+  Rendered reminder_mailer/reminder_email.html.erb within layouts/mailer (0.1ms)
+
+ReminderMailer#reminder_email: processed outbound mail in 6.3ms
+
+Sent mail to matt@alumni.reed.edu (380.6ms)
+Date: Sat, 26 Sep 2015 00:01:02 -0700
+From: notifications@example.com
+To: matt@alumni.reed.edu
+Message-ID: <560642aed3eed_167993fc30a6616084095f@Matts-MacBook-Pro.local.mail>
+Subject: reminder email
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    tom
+matt@alumni.reed.edu
+Yes
+
+reminder email
+
+  </body>
+</html>
+
+  [1m[36mCrono::CronoJob Load (0.8ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  [1m[35m (18.6ms)[0m  BEGIN
+  [1m[36mCrono::CronoJob Exists (63.8ms)[0m  [1mSELECT  1 AS one FROM "crono_jobs" WHERE ("crono_jobs"."job_id" = 'Perform ReminderEmailJob every 7 days at 00:01 on Saturday' AND "crono_jobs"."id" != 16) LIMIT 1[0m
+  [1m[35mSQL (31.0ms)[0m  UPDATE "crono_jobs" SET "last_performed_at" = $1, "log" = $2, "healthy" = $3, "updated_at" = $4 WHERE "crono_jobs"."id" = $5  [["last_performed_at", "2015-09-26 00:01:00.009851"], ["log", "I, [2015-09-26T00:01:00.009744 #92057]  INFO -- : Perform ReminderEmailJob\nI, [2015-09-26T00:01:03.248305 #92057]  INFO -- : Finished ReminderEmailJob in 3.24 seconds\n"], ["healthy", "t"], ["updated_at", "2015-09-26 00:01:03.420582"], ["id", 16]]
+  [1m[36m (745.1ms)[0m  [1mCOMMIT[0m
+  [1m[36mCrono::CronoJob Load (2.9ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1[0m  [["job_id", "Perform ResetrsvpJob every 7 days on Sunday"]]
+  [1m[35mCrono::CronoJob Load (0.5ms)[0m  SELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1  [["job_id", "Perform ReminderEmailJob every 7 days at 04:30 on Saturday"]]
+  [1m[36mCrono::CronoJob Load (0.4ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1[0m  [["job_id", "Perform ReminderEmailJob every 7 days at 00:01 on Saturday"]]
+  [1m[35mCrono::CronoJob Load (0.4ms)[0m  SELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1  [["job_id", "Perform ReminderEmailJob every 7 days on Saturday"]]
+  [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+  [1m[35mCrono::CronoJob Exists (0.7ms)[0m  SELECT  1 AS one FROM "crono_jobs" WHERE "crono_jobs"."job_id" = 'Perform ReminderEmailJob every 7 days on Saturday' LIMIT 1
+  [1m[36mSQL (264.5ms)[0m  [1mINSERT INTO "crono_jobs" ("job_id", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["job_id", "Perform ReminderEmailJob every 7 days on Saturday"], ["created_at", "2015-09-26 09:47:14.957748"], ["updated_at", "2015-09-26 09:47:14.957748"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36mCrono::CronoJob Load (0.9ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1[0m  [["job_id", "Perform ResetrsvpJob every 7 days on Sunday"]]
+  [1m[35mCrono::CronoJob Load (0.5ms)[0m  SELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1  [["job_id", "Perform ReminderEmailJob every 7 days at 04:30 on Saturday"]]
+  [1m[36mCrono::CronoJob Load (0.4ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1[0m  [["job_id", "Perform ReminderEmailJob every 7 days at 00:01 on Saturday"]]
+  [1m[35mCrono::CronoJob Load (0.4ms)[0m  SELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1  [["job_id", "Perform ReminderEmailJob every 7 days on Saturday"]]
+  [1m[36mCrono::CronoJob Load (1.0ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1[0m  [["job_id", "Perform ResetrsvpJob every 7 days on Sunday"]]
+  [1m[35mCrono::CronoJob Load (0.6ms)[0m  SELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1  [["job_id", "Perform ReminderEmailJob every 7 days at 04:30 on Saturday"]]
+  [1m[36mCrono::CronoJob Load (0.5ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1[0m  [["job_id", "Perform ReminderEmailJob every 7 days at 00:01 on Saturday"]]
+  [1m[35mCrono::CronoJob Load (0.4ms)[0m  SELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1  [["job_id", "Perform ReminderEmailJob every 7 days on Sunday"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mCrono::CronoJob Exists (0.5ms)[0m  SELECT  1 AS one FROM "crono_jobs" WHERE "crono_jobs"."job_id" = 'Perform ReminderEmailJob every 7 days on Sunday' LIMIT 1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "crono_jobs" ("job_id", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["job_id", "Perform ReminderEmailJob every 7 days on Sunday"], ["created_at", "2015-09-26 09:55:52.453354"], ["updated_at", "2015-09-26 09:55:52.453354"]]
+  [1m[35m (12.7ms)[0m  COMMIT
+  [1m[36mCrono::CronoJob Load (0.6ms)[0m  [1mSELECT  "crono_jobs".* FROM "crono_jobs" WHERE "crono_jobs"."job_id" = $1 LIMIT 1[0m  [["job_id", "Perform ReminderEmailJob every 7 days at 00:01 on Sunday"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mCrono::CronoJob Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "crono_jobs" WHERE "crono_jobs"."job_id" = 'Perform ReminderEmailJob every 7 days at 00:01 on Sunday' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "crono_jobs" ("job_id", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["job_id", "Perform ReminderEmailJob every 7 days at 00:01 on Sunday"], ["created_at", "2015-09-26 09:55:52.473709"], ["updated_at", "2015-09-26 09:55:52.473709"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/users" for ::1 at 2015-09-26 09:56:14 -0700
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 242ms (Views: 213.5ms | ActiveRecord: 1.3ms)
