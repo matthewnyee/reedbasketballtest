@@ -64,11 +64,11 @@ class UsersController < ApplicationController
     #   end
 
   def next_game
-    if Date.today.wday >= 1 && Date.today.wday <= 3
-      @next_game = next_wednesday
-    else
+    # if Date.today.wday >= 1 && Date.today.wday <= 3
+    #   @next_game = next_wednesday
+    # else
       @next_game = next_sunday
-    end
+    # end
   end
 
 def next_wednesday
