@@ -23,7 +23,7 @@ end
 # Crono.perform(TestJob).every 100.seconds
 # Crono.perform(ResetrsvpJob).every 1.week, on: :sunday, at: {hour: 23, min: 55}
 Crono.perform(ResetrsvpJob).every 1.week, on: :monday
-Crono.perform(ResetrsvpJob).every 1.week, on: :monday, at {hour: 00, min: 05}
+Crono.perform(ResetrsvpJob).every 1.week, on: :monday, at: {hour: 00, min: 05}
 # Crono.perform(ResetrsvpJob).every 10.seconds
 # Crono.perform(TestemailJob).every 10.seconds
 # Crono.perform(ReminderEmailJob).every 1.week, on: :saturday, at: {hour: 04, min: 30}
