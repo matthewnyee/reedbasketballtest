@@ -1,28 +1,19 @@
-== README
+#Reed Open Gym
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Basketball attendance [website](https://safe-garden-1108.herokuapp.com/) built using Ruby on Rails
 
-Things you may want to cover:
+###Features
 
-* Ruby version
+* All users and RSVP status visible on home page to make attendance data public
+* Displays date and day of week of next game
+* Autofills user information on edit page (RSVP status/email/username) when applicable
+* Automatically emails users before game as reminder
+* Automatically resets RSVP statuses after games
+* Site deployed using [Heroku](https://www.heroku.com/about)
 
-* System dependencies
+###Notes
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Site kept simple to lower barrier of entry for users of all ages and technological fluencies
+ * No user verification, logins, or passwords
+ * Potential for users to modify/delete other users
+* Automatic tasks (email/database resets) completed using [crono](https://github.com/plashchynski/crono), a background job daemon
