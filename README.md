@@ -4,7 +4,7 @@ Basketball attendance [website](https://safe-garden-1108.herokuapp.com/) built u
 
 ###Features
 
-* All users and RSVP status visible on home page to make attendance data public
+* All users and RSVP statuses visible on home page to make attendance data public
 * Displays date and day of week of next game
 * Autofills user information on edit page (RSVP status/email/username) when applicable
 * Automatically emails users before game as reminder
