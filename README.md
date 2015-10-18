@@ -15,5 +15,4 @@ Basketball attendance [website](https://safe-garden-1108.herokuapp.com/) built u
 
 * Site kept simple to lower barrier of entry for users of all ages and technological fluencies
  * No user verification, logins, or passwords
- * Potential for users to modify/delete other users
 * Automatic tasks (email/database resets) completed using [crono](https://github.com/plashchynski/crono), a background job daemon
