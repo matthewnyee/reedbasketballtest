@@ -16,3 +16,12 @@ Basketball attendance [website](https://safe-garden-1108.herokuapp.com/) built u
 * Site kept simple to lower barrier of entry for users of all ages and technological fluencies
  * No user verification, logins, or passwords
 * Automatic tasks (email/database resets) completed using [crono](https://github.com/plashchynski/crono), a background job daemon
+
+### Functions to be added
+* [Flash messages](http://api.rubyonrails.org/classes/ActionDispatch/Flash.html) for successful submission of action (creating/deleting user, changing status/email, etc)
+* Notify user on edit page if emails not delivering (most likely wrong email address)
+* If weekly events > 1, allow users to unsubscribe from reminders for certain days
+* SMS reminders
+* Disallow blank or duplicate usernames
+* Add optional toggle for arriving late/leaving early
+* Email user when their username is deleted, in case of malicious deletion by other visitor
