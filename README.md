@@ -16,6 +16,7 @@ Basketball attendance [website](https://safe-garden-1108.herokuapp.com/) built u
 * Site kept simple to lower barrier of entry for users of all ages and technological fluencies
  * No user verification, logins, or passwords
 * Automatic tasks (email/database resets) completed using [crono](https://github.com/plashchynski/crono), a background job daemon
+* Git commits currently 
 
 ### Functions to be added
 * [Flash messages](http://api.rubyonrails.org/classes/ActionDispatch/Flash.html) for successful submission of action (creating/deleting user, changing status/email, etc)
