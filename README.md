@@ -21,6 +21,7 @@ Basketball attendance [website](https://safe-garden-1108.herokuapp.com/) built u
 * [Flash messages](http://api.rubyonrails.org/classes/ActionDispatch/Flash.html) for successful submission of action (creating/deleting user, changing status/email, etc)
 * Notify user on edit page if emails not delivering (most likely wrong email address)
 * If weekly events > 1, allow users to unsubscribe from reminders for certain days
+* Sort users on homepage by status
 * SMS reminders
 * Disallow blank or duplicate usernames
 * Add optional toggle for arriving late/leaving early
