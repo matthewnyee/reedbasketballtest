@@ -1,6 +1,6 @@
 #Reed Open Gym
 
-Basketball attendance [website](https://safe-garden-1108.herokuapp.com/) built using Ruby on Rails
+Basketball attendance website built using Ruby on Rails ([safe-garden-1108.herokuapp.com](https://safe-garden-1108.herokuapp.com/)).
 
 ###Features
 
