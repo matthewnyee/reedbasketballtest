@@ -15,7 +15,8 @@ Basketball attendance website built using Ruby on Rails ([safe-garden-1108.herok
 
 * Site kept simple to lower barrier of entry for users of all ages and technological fluencies
  * No user verification, logins, or passwords
-* Automatic tasks (email/database resets) completed using [crono](https://github.com/plashchynski/crono), a background job daemon
+* Automatic tasks (email/database resets) completed using [scheduler](https://devcenter.heroku.com/articles/scheduler), a Heroku add-on for scheduled jobs  similar to Cron
+
 
 ### Functions to be added
 * [Flash messages](http://api.rubyonrails.org/classes/ActionDispatch/Flash.html) for successful submission of action (creating/deleting user, changing status/email, etc)
