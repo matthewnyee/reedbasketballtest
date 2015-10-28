@@ -11337,3 +11337,29 @@ Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde45
 
 
 Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-10-24 13:32:49 -0700
+
+
+Started GET "/users" for ::1 at 2015-10-27 18:51:21 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (1.9ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (374.4ms)
+Completed 200 OK in 2704ms (Views: 2133.7ms | ActiveRecord: 141.3ms)
+
+
+Started GET "/assets/custom.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-27 18:51:26 -0700
+
+
+Started GET "/assets/application.self-2300050a5d7e4407dd6dcb4667f04d4ccdb404bb8eaf240eb08cb83c0bdc4476.css?body=1" for ::1 at 2015-10-27 18:51:26 -0700
+
+
+Started GET "/assets/users.self-9f744e7ff4ac9597aa98cd521ef9c6068a06387d5e5010df4df1d0ca9e8ef654.css?body=1" for ::1 at 2015-10-27 18:51:26 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2015-10-27 18:51:26 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-10-27 18:51:26 -0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-10-27 18:51:26 -0700
