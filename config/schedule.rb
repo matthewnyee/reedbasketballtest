@@ -19,15 +19,15 @@
 
 # Learn more: http://github.com/javan/whenever
 
-every 1.minute do
-  runner "User.reset_rsvp"
-end
-
-every 1.minute do
-  runner "User.update_all('status' => 'mememme')"
-  runner "User.update_all(status => 'laalalalal)"
-end
-
-every 1.minute do
-  rake "reset_rsvp"
-end
+# every 1.minute do
+#   runner "User.reset_rsvp"
+# end
+#
+# every 1.minute do
+#   runner "User.update_all('status' => 'mememme')"
+#   runner "User.update_all(status => 'laalalalal)"
+# end
+#
+# every 1.minute do
+#   rake "reset_rsvp"
+# end

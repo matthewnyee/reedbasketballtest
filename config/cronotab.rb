@@ -14,22 +14,18 @@
 # Crono.perform(TestJob).every 2.days, at: '15:30'
 #
 
-class TestJob
-  def perform
-    User.update_all('status' => 'cronotab.rb from crono')
-  end
-end
+# class TestJob
+#   def perform
+#     User.update_all('status' => 'cronotab.rb from crono')
+#   end
+# end
 
 # Crono.perform(TestJob).every 100.seconds
 # Crono.perform(ResetrsvpJob).every 1.week, on: :sunday, at: {hour: 23, min: 55}
-Crono.perform(ResetrsvpJob).every 1.week, on: :monday
-Crono.perform(ResetrsvpJob).every 1.week, on: :monday, at: {hour: 00, min: 05}
 # Crono.perform(ResetrsvpJob).every 10.seconds
 # Crono.perform(TestemailJob).every 10.seconds
 # Crono.perform(ReminderEmailJob).every 1.week, on: :saturday, at: {hour: 04, min: 30}
 # Crono.perform(ReminderEmailJob).every 1.week, on: :saturday
-Crono.perform(ReminderEmailJob).every 1.week, on: :monday
-Crono.perform(ReminderEmailJob).every 1.week, on: :monday, at: {hour: 00, min: 05}
 # Crono.perform(ReminderEmailJob).every 1.week, on: :sunday
 # Crono.perform(ReminderEmailJob).every 10.seconds
 # Crono.perform(TestJob).every 1.minute

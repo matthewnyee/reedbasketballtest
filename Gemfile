@@ -32,12 +32,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-#ADDED BY MATT YEE
+#My gems
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
-gem 'whenever', :require => false
-gem 'crono'
-#ADDED BY MATT YEE
+# gem 'whenever', :require => false
+# gem 'crono'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

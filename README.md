@@ -24,6 +24,6 @@ Basketball attendance [website](https://safe-garden-1108.herokuapp.com/) built u
 * If weekly events > 1, allow users to unsubscribe from reminders for certain days
 * Sort users on homepage by status
 * SMS reminders
-* Disallow blank or duplicate usernames
+* Disallow blank or duplicate usernames with validations
 * Add optional toggle for arriving late/leaving early
 * Email user when their username is deleted, in case of malicious deletion by other visitor
