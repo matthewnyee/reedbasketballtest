@@ -16,6 +16,7 @@ Basketball attendance [website](https://safe-garden-1108.herokuapp.com/) built u
 * Site kept simple to lower barrier of entry for users of all ages and technological fluencies
  * No user verification, logins, or passwords
 * Automatic tasks (email/database resets) completed using [scheduler](https://devcenter.heroku.com/articles/scheduler), a Heroku add-on for scheduled jobs  similar to Cron
+* TDD
 
 
 ### Functions to be added
