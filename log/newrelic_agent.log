@@ -1,0 +1,19 @@
+# Logfile created on 2015-12-14 17:27:20 -0800 by logger.rb/44203
+[2015-12-14 17:27:20 -0800 Matts-MacBook-Pro.local (79944)] INFO : Starting the New Relic agent in "production" environment.
+[2015-12-14 17:27:20 -0800 Matts-MacBook-Pro.local (79944)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2015-12-14 17:27:20 -0800 Matts-MacBook-Pro.local (79944)] WARN : No configuration file found. Working directory = /Users/mattyee/reedbasketballtest
+[2015-12-14 17:27:20 -0800 Matts-MacBook-Pro.local (79944)] WARN : Looked in these locations (based on defaults): /Users/mattyee/reedbasketballtest/config/newrelic.yml, /Users/mattyee/reedbasketballtest/newrelic.yml, /Users/mattyee/reedbasketballtest/config/newrelic.yml, /Users/mattyee/reedbasketballtest/newrelic.yml, /Users/mattyee/.newrelic/newrelic.yml, /Users/mattyee/newrelic.yml
+[2015-12-14 17:27:20 -0800 Matts-MacBook-Pro.local (79944)] INFO : Environment: production
+[2015-12-14 17:27:20 -0800 Matts-MacBook-Pro.local (79944)] INFO : No known dispatcher detected.
+[2015-12-14 17:27:20 -0800 Matts-MacBook-Pro.local (79944)] INFO : Application: production
+[2015-12-14 17:27:20 -0800 Matts-MacBook-Pro.local (79944)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2015-12-14 17:27:20 -0800 Matts-MacBook-Pro.local (79944)] INFO : Installing ActiveJob instrumentation
+[2015-12-14 17:27:21 -0800 Matts-MacBook-Pro.local (79944)] INFO : Installing ActiveRecord 4 instrumentation
+[2015-12-14 17:27:25 -0800 Matts-MacBook-Pro.local (79944)] INFO : Installing Net instrumentation
+[2015-12-14 17:27:25 -0800 Matts-MacBook-Pro.local (79944)] INFO : Installing deferred Rack::Builder instrumentation
+[2015-12-14 17:27:25 -0800 Matts-MacBook-Pro.local (79944)] INFO : Installing Rack::Builder middleware instrumentation
+[2015-12-14 17:27:25 -0800 Matts-MacBook-Pro.local (79944)] INFO : Installing Rails 3+ middleware instrumentation
+[2015-12-14 17:27:25 -0800 Matts-MacBook-Pro.local (79944)] INFO : Installing Rails 4 Controller instrumentation
+[2015-12-14 17:27:26 -0800 Matts-MacBook-Pro.local (79944)] INFO : Installing Rails 4 view instrumentation
+[2015-12-14 17:27:26 -0800 Matts-MacBook-Pro.local (79944)] INFO : Installing Rails 4 Error instrumentation
+[2015-12-14 17:27:26 -0800 Matts-MacBook-Pro.local (79944)] INFO : Finished instrumentation
