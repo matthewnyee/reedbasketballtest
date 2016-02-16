@@ -37,7 +37,10 @@ gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
 # gem 'whenever', :require => false
 # gem 'crono'
-gem 'newrelic_rpm'
+# gem 'newrelic_rpm'
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0'
+end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -48,6 +51,7 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
 end
 
 gem 'rails_12factor', group: :production

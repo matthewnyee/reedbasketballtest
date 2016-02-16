@@ -17,3 +17,238 @@
 [2015-12-14 17:27:26 -0800 Matts-MacBook-Pro.local (79944)] INFO : Installing Rails 4 view instrumentation
 [2015-12-14 17:27:26 -0800 Matts-MacBook-Pro.local (79944)] INFO : Installing Rails 4 Error instrumentation
 [2015-12-14 17:27:26 -0800 Matts-MacBook-Pro.local (79944)] INFO : Finished instrumentation
+[2015-12-15 22:15:21 -0800 Matts-MacBook-Pro.local (86083)] INFO : Starting the New Relic agent in "production" environment.
+[2015-12-15 22:15:21 -0800 Matts-MacBook-Pro.local (86083)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2015-12-15 22:15:21 -0800 Matts-MacBook-Pro.local (86083)] INFO : Reading configuration from config/newrelic.yml (/Users/mattyee/reedbasketballtest)
+[2015-12-15 22:15:21 -0800 Matts-MacBook-Pro.local (86083)] INFO : Environment: production
+[2015-12-15 22:15:21 -0800 Matts-MacBook-Pro.local (86083)] INFO : No known dispatcher detected.
+[2015-12-15 22:15:21 -0800 Matts-MacBook-Pro.local (86083)] INFO : Application: My Application
+[2015-12-15 22:15:22 -0800 Matts-MacBook-Pro.local (86083)] INFO : Installing ActiveJob instrumentation
+[2015-12-15 22:15:22 -0800 Matts-MacBook-Pro.local (86083)] INFO : Installing ActiveRecord 4 instrumentation
+[2015-12-15 22:15:23 -0800 Matts-MacBook-Pro.local (86083)] INFO : Installing Net instrumentation
+[2015-12-15 22:15:23 -0800 Matts-MacBook-Pro.local (86083)] INFO : Installing deferred Rack::Builder instrumentation
+[2015-12-15 22:15:23 -0800 Matts-MacBook-Pro.local (86083)] INFO : Installing Rack::Builder middleware instrumentation
+[2015-12-15 22:15:23 -0800 Matts-MacBook-Pro.local (86083)] INFO : Installing Rails 3+ middleware instrumentation
+[2015-12-15 22:15:23 -0800 Matts-MacBook-Pro.local (86083)] INFO : Installing Rails 4 Controller instrumentation
+[2015-12-15 22:15:24 -0800 Matts-MacBook-Pro.local (86083)] INFO : Installing Rails 4 view instrumentation
+[2015-12-15 22:15:24 -0800 Matts-MacBook-Pro.local (86083)] INFO : Installing Rails 4 Error instrumentation
+[2015-12-15 22:15:24 -0800 Matts-MacBook-Pro.local (86083)] INFO : Finished instrumentation
+[2015-12-15 22:15:25 -0800 Matts-MacBook-Pro.local (86083)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1182125/applications/13200121
+[2015-12-15 22:21:17 -0800 Matts-MacBook-Pro.local (86083)] INFO : Starting Agent shutdown
+[2015-12-15 22:21:37 -0800 Matts-MacBook-Pro.local (86149)] INFO : Starting the New Relic agent in "production" environment.
+[2015-12-15 22:21:37 -0800 Matts-MacBook-Pro.local (86149)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2015-12-15 22:21:37 -0800 Matts-MacBook-Pro.local (86149)] INFO : Reading configuration from config/newrelic.yml (/Users/mattyee/reedbasketballtest)
+[2015-12-15 22:21:37 -0800 Matts-MacBook-Pro.local (86149)] INFO : Environment: production
+[2015-12-15 22:21:37 -0800 Matts-MacBook-Pro.local (86149)] INFO : No known dispatcher detected.
+[2015-12-15 22:21:37 -0800 Matts-MacBook-Pro.local (86149)] INFO : Application: My Application
+[2015-12-15 22:21:38 -0800 Matts-MacBook-Pro.local (86149)] INFO : Installing ActiveJob instrumentation
+[2015-12-15 22:21:38 -0800 Matts-MacBook-Pro.local (86149)] INFO : Installing ActiveRecord 4 instrumentation
+[2015-12-15 22:21:39 -0800 Matts-MacBook-Pro.local (86149)] INFO : Installing Net instrumentation
+[2015-12-15 22:21:39 -0800 Matts-MacBook-Pro.local (86149)] INFO : Installing deferred Rack::Builder instrumentation
+[2015-12-15 22:21:39 -0800 Matts-MacBook-Pro.local (86149)] INFO : Installing Rack::Builder middleware instrumentation
+[2015-12-15 22:21:39 -0800 Matts-MacBook-Pro.local (86149)] INFO : Installing Rails 3+ middleware instrumentation
+[2015-12-15 22:21:39 -0800 Matts-MacBook-Pro.local (86149)] INFO : Installing Rails 4 Controller instrumentation
+[2015-12-15 22:21:40 -0800 Matts-MacBook-Pro.local (86149)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1182125/applications/13200121
+[2015-12-15 22:21:41 -0800 Matts-MacBook-Pro.local (86149)] INFO : Installing Rails 4 view instrumentation
+[2015-12-15 22:21:41 -0800 Matts-MacBook-Pro.local (86149)] INFO : Installing Rails 4 Error instrumentation
+[2015-12-15 22:21:41 -0800 Matts-MacBook-Pro.local (86149)] INFO : Finished instrumentation
+[2015-12-15 22:22:21 -0800 Matts-MacBook-Pro.local (86149)] INFO : Starting Agent shutdown
+[2015-12-15 22:22:36 -0800 Matts-MacBook-Pro.local (86213)] INFO : Starting the New Relic agent in "production" environment.
+[2015-12-15 22:22:36 -0800 Matts-MacBook-Pro.local (86213)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2015-12-15 22:22:36 -0800 Matts-MacBook-Pro.local (86213)] INFO : Reading configuration from config/newrelic.yml (/Users/mattyee/reedbasketballtest)
+[2015-12-15 22:22:36 -0800 Matts-MacBook-Pro.local (86213)] INFO : Environment: production
+[2015-12-15 22:22:36 -0800 Matts-MacBook-Pro.local (86213)] INFO : No known dispatcher detected.
+[2015-12-15 22:22:36 -0800 Matts-MacBook-Pro.local (86213)] INFO : Application: My Application
+[2015-12-15 22:22:38 -0800 Matts-MacBook-Pro.local (86213)] INFO : Installing ActiveJob instrumentation
+[2015-12-15 22:22:38 -0800 Matts-MacBook-Pro.local (86213)] INFO : Installing ActiveRecord 4 instrumentation
+[2015-12-15 22:22:38 -0800 Matts-MacBook-Pro.local (86213)] INFO : Installing Net instrumentation
+[2015-12-15 22:22:38 -0800 Matts-MacBook-Pro.local (86213)] INFO : Installing deferred Rack::Builder instrumentation
+[2015-12-15 22:22:38 -0800 Matts-MacBook-Pro.local (86213)] INFO : Installing Rack::Builder middleware instrumentation
+[2015-12-15 22:22:38 -0800 Matts-MacBook-Pro.local (86213)] INFO : Installing Rails 3+ middleware instrumentation
+[2015-12-15 22:22:38 -0800 Matts-MacBook-Pro.local (86213)] INFO : Installing Rails 4 Controller instrumentation
+[2015-12-15 22:22:39 -0800 Matts-MacBook-Pro.local (86213)] INFO : Installing Rails 4 view instrumentation
+[2015-12-15 22:22:39 -0800 Matts-MacBook-Pro.local (86213)] INFO : Installing Rails 4 Error instrumentation
+[2015-12-15 22:22:39 -0800 Matts-MacBook-Pro.local (86213)] INFO : Finished instrumentation
+[2015-12-15 22:22:39 -0800 Matts-MacBook-Pro.local (86213)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1182125/applications/13200121
+[2015-12-16 12:23:08 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2015-12-16 12:23:12 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.001226 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-16 13:26:16 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2015-12-16 13:26:16 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.000729 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-16 13:26:56 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2015-12-16 13:26:56 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.001681 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-16 19:31:22 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2015-12-16 19:31:23 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.001272 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-16 22:37:59 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2015-12-16 22:37:59 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.000809 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-16 22:38:08 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2015-12-16 22:38:08 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.004134 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-16 22:38:08 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2015-12-16 22:38:08 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.001337 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-17 00:26:16 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2015-12-17 00:26:16 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.001017 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-17 10:50:40 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2015-12-17 10:50:41 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.000991 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-17 11:19:43 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2015-12-17 11:19:43 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.000738 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-17 12:03:55 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2015-12-17 12:03:55 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.001018 seconds: Network is unreachable - connect(2) for "collector-158.newrelic.com" port 443
+[2015-12-17 18:19:20 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2015-12-17 18:19:21 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.00109 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-18 00:35:20 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2015-12-18 00:35:25 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.001228 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-18 00:35:33 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2015-12-18 00:35:33 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.004563 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-18 00:35:33 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2015-12-18 00:35:33 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.001034 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-18 12:33:49 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2015-12-18 12:33:49 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.000773 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-18 13:43:26 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2015-12-18 13:43:26 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.001245 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-18 13:44:25 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2015-12-18 13:44:25 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.006856 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-18 13:44:25 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2015-12-18 13:44:25 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.001361 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-18 13:45:25 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2015-12-18 13:45:25 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.006752 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-18 13:45:25 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2015-12-18 13:45:25 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.001213 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-18 13:46:26 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2015-12-18 13:46:26 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.406129 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-18 13:46:26 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2015-12-18 13:46:26 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.001332 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-18 13:47:25 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2015-12-18 13:47:25 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.005889 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-18 13:47:25 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2015-12-18 13:47:25 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.001416 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-18 13:48:26 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2015-12-18 13:48:26 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.409067 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-18 13:48:26 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2015-12-18 13:48:26 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.001929 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-18 13:49:25 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2015-12-18 13:49:25 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.003189 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-18 13:49:25 -0800 Matts-MacBook-Pro.local (86213)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2015-12-18 13:49:25 -0800 Matts-MacBook-Pro.local (86213)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.001168 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2015-12-18 13:49:59 -0800 Matts-MacBook-Pro.local (86213)] INFO : Starting Agent shutdown
+[2016-01-05 13:18:51 -0800 matts-mbp.home (35064)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-05 13:18:51 -0800 matts-mbp.home (35064)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-05 13:18:51 -0800 matts-mbp.home (35064)] INFO : Reading configuration from config/newrelic.yml (/Users/mattyee/reedbasketballtest)
+[2016-01-05 13:18:51 -0800 matts-mbp.home (35064)] INFO : New Relic Agent Developer Mode enabled.
+[2016-01-05 13:18:51 -0800 matts-mbp.home (35064)] INFO : Environment: development
+[2016-01-05 13:18:51 -0800 matts-mbp.home (35064)] INFO : No known dispatcher detected.
+[2016-01-05 13:18:51 -0800 matts-mbp.home (35064)] INFO : Application: My Application (Development)
+[2016-01-05 13:18:54 -0800 matts-mbp.home (35064)] INFO : Installing ActiveJob instrumentation
+[2016-01-05 13:18:54 -0800 matts-mbp.home (35064)] INFO : Installing ActiveRecord 4 instrumentation
+[2016-01-05 13:18:54 -0800 matts-mbp.home (35064)] INFO : Installing Net instrumentation
+[2016-01-05 13:18:54 -0800 matts-mbp.home (35064)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-01-05 13:18:54 -0800 matts-mbp.home (35064)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-01-05 13:18:54 -0800 matts-mbp.home (35064)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-01-05 13:18:54 -0800 matts-mbp.home (35064)] INFO : Installing Rails 4 Controller instrumentation
+[2016-01-05 13:18:55 -0800 matts-mbp.home (35064)] INFO : Installing Rails 4 view instrumentation
+[2016-01-05 13:18:55 -0800 matts-mbp.home (35064)] INFO : Installing Rails 4 Error instrumentation
+[2016-01-05 13:18:55 -0800 matts-mbp.home (35064)] INFO : Finished instrumentation
+[2016-01-05 13:18:55 -0800 matts-mbp.home (35064)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1182125/applications/13645129
+[2016-01-05 13:18:58 -0800 matts-mbp.home (35082)] INFO : Starting Agent shutdown
+[2016-01-05 13:54:05 -0800 matts-mbp.home (35064)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-05 13:54:05 -0800 matts-mbp.home (35064)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.001635 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-05 13:54:36 -0800 matts-mbp.home (35064)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-05 13:54:36 -0800 matts-mbp.home (35064)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.364541 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-05 13:54:36 -0800 matts-mbp.home (35064)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-05 13:54:36 -0800 matts-mbp.home (35064)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.002821 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-05 15:16:27 -0800 matts-mbp.home (35064)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-05 15:16:28 -0800 matts-mbp.home (35064)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.001953 seconds: Network is down - connect(2) for "collector-158.newrelic.com" port 443
+[2016-01-05 21:48:33 -0800 matts-mbp.home (35064)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-05 21:48:34 -0800 matts-mbp.home (35064)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.001299 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-06 07:55:55 -0800 matts-mbp.home (35064)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-06 07:55:55 -0800 matts-mbp.home (35064)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.003932 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-06 08:16:01 -0800 matts-mbp.home (35064)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-06 08:16:01 -0800 matts-mbp.home (35064)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.001353 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-06 09:57:25 -0800 matts-mbp.home (35064)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-06 09:57:26 -0800 matts-mbp.home (35064)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.002041 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-06 10:59:52 -0800 matts-mbp.home (35064)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-06 10:59:52 -0800 matts-mbp.home (35064)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.001718 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-06 11:07:55 -0800 matts-mbp.home (35064)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-06 11:07:55 -0800 matts-mbp.home (35064)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.001542 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-06 17:37:12 -0800 matts-mbp.home (35064)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-06 17:37:12 -0800 matts-mbp.home (35064)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.001606 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-06 17:37:47 -0800 matts-mbp.home (35064)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2016-01-06 17:37:47 -0800 matts-mbp.home (35064)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.413559 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-06 17:37:47 -0800 matts-mbp.home (35064)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2016-01-06 17:37:47 -0800 matts-mbp.home (35064)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-158.newrelic.com:443 after 0.002376 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2016-01-06 17:38:07 -0800 matts-mbp.home (35064)] INFO : Starting Agent shutdown
+[2016-02-16 12:24:19 -0800 Matts-MacBook-Pro.local (27795)] INFO : Starting the New Relic agent in "development" environment.
+[2016-02-16 12:24:19 -0800 Matts-MacBook-Pro.local (27795)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-02-16 12:24:19 -0800 Matts-MacBook-Pro.local (27795)] INFO : Reading configuration from config/newrelic.yml (/Users/mattyee/reedbasketballtest)
+[2016-02-16 12:24:19 -0800 Matts-MacBook-Pro.local (27795)] INFO : New Relic Agent Developer Mode enabled.
+[2016-02-16 12:24:19 -0800 Matts-MacBook-Pro.local (27795)] INFO : Environment: development
+[2016-02-16 12:24:19 -0800 Matts-MacBook-Pro.local (27795)] INFO : No known dispatcher detected.
+[2016-02-16 12:24:19 -0800 Matts-MacBook-Pro.local (27795)] INFO : Application: My Application (Development)
+[2016-02-16 12:24:20 -0800 Matts-MacBook-Pro.local (27795)] INFO : Installing ActiveJob instrumentation
+[2016-02-16 12:24:20 -0800 Matts-MacBook-Pro.local (27795)] INFO : Installing ActiveRecord 4 instrumentation
+[2016-02-16 12:24:20 -0800 Matts-MacBook-Pro.local (27795)] INFO : Installing Net instrumentation
+[2016-02-16 12:24:20 -0800 Matts-MacBook-Pro.local (27795)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-02-16 12:24:20 -0800 Matts-MacBook-Pro.local (27795)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-02-16 12:24:20 -0800 Matts-MacBook-Pro.local (27795)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-02-16 12:24:20 -0800 Matts-MacBook-Pro.local (27795)] INFO : Installing Rails 4 Controller instrumentation
+[2016-02-16 12:24:21 -0800 Matts-MacBook-Pro.local (27795)] INFO : Installing Rails 4 view instrumentation
+[2016-02-16 12:24:21 -0800 Matts-MacBook-Pro.local (27795)] INFO : Installing Rails 4 Error instrumentation
+[2016-02-16 12:24:21 -0800 Matts-MacBook-Pro.local (27795)] INFO : Finished instrumentation
+[2016-02-16 12:24:23 -0800 Matts-MacBook-Pro.local (27795)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1182125/applications/13645129
+[2016-02-16 12:24:31 -0800 Matts-MacBook-Pro.local (27883)] INFO : Starting the New Relic agent in "development" environment.
+[2016-02-16 12:24:31 -0800 Matts-MacBook-Pro.local (27883)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-02-16 12:24:31 -0800 Matts-MacBook-Pro.local (27883)] INFO : Reading configuration from config/newrelic.yml (/Users/mattyee/reedbasketballtest)
+[2016-02-16 12:24:31 -0800 Matts-MacBook-Pro.local (27883)] INFO : New Relic Agent Developer Mode enabled.
+[2016-02-16 12:24:31 -0800 Matts-MacBook-Pro.local (27883)] INFO : Environment: development
+[2016-02-16 12:24:31 -0800 Matts-MacBook-Pro.local (27883)] INFO : Dispatcher: webrick
+[2016-02-16 12:24:31 -0800 Matts-MacBook-Pro.local (27883)] INFO : Application: My Application (Development)
+[2016-02-16 12:24:32 -0800 Matts-MacBook-Pro.local (27883)] INFO : Installing ActiveJob instrumentation
+[2016-02-16 12:24:32 -0800 Matts-MacBook-Pro.local (27883)] INFO : Installing ActiveRecord 4 instrumentation
+[2016-02-16 12:24:32 -0800 Matts-MacBook-Pro.local (27883)] INFO : Installing Net instrumentation
+[2016-02-16 12:24:32 -0800 Matts-MacBook-Pro.local (27883)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-02-16 12:24:32 -0800 Matts-MacBook-Pro.local (27883)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-02-16 12:24:32 -0800 Matts-MacBook-Pro.local (27883)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-02-16 12:24:32 -0800 Matts-MacBook-Pro.local (27883)] INFO : Installing Rails 4 Controller instrumentation
+[2016-02-16 12:24:33 -0800 Matts-MacBook-Pro.local (27883)] INFO : Installing Rails 4 view instrumentation
+[2016-02-16 12:24:33 -0800 Matts-MacBook-Pro.local (27883)] INFO : Installing Rails 4 Error instrumentation
+[2016-02-16 12:24:33 -0800 Matts-MacBook-Pro.local (27883)] INFO : Finished instrumentation
+[2016-02-16 12:24:34 -0800 Matts-MacBook-Pro.local (27883)] INFO : Doing deferred dependency-detection before Rack startup
+[2016-02-16 12:24:34 -0800 Matts-MacBook-Pro.local (27883)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1182125/applications/13645129
+[2016-02-16 12:25:57 -0800 Matts-MacBook-Pro.local (28169)] INFO : Starting the New Relic agent in "development" environment.
+[2016-02-16 12:25:57 -0800 Matts-MacBook-Pro.local (28169)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-02-16 12:25:57 -0800 Matts-MacBook-Pro.local (28169)] INFO : Reading configuration from config/newrelic.yml (/Users/mattyee/reedbasketballtest)
+[2016-02-16 12:25:58 -0800 Matts-MacBook-Pro.local (28169)] INFO : New Relic Agent Developer Mode enabled.
+[2016-02-16 12:25:58 -0800 Matts-MacBook-Pro.local (28169)] INFO : Environment: development
+[2016-02-16 12:25:58 -0800 Matts-MacBook-Pro.local (28169)] INFO : Dispatcher: webrick
+[2016-02-16 12:25:58 -0800 Matts-MacBook-Pro.local (28169)] INFO : Application: My Application (Development)
+[2016-02-16 12:25:59 -0800 Matts-MacBook-Pro.local (28169)] INFO : Installing ActiveJob instrumentation
+[2016-02-16 12:25:59 -0800 Matts-MacBook-Pro.local (28169)] INFO : Installing ActiveRecord 4 instrumentation
+[2016-02-16 12:25:59 -0800 Matts-MacBook-Pro.local (28169)] INFO : Installing Net instrumentation
+[2016-02-16 12:25:59 -0800 Matts-MacBook-Pro.local (28169)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-02-16 12:25:59 -0800 Matts-MacBook-Pro.local (28169)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-02-16 12:25:59 -0800 Matts-MacBook-Pro.local (28169)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-02-16 12:25:59 -0800 Matts-MacBook-Pro.local (28169)] INFO : Installing Rails 4 Controller instrumentation
+[2016-02-16 12:25:59 -0800 Matts-MacBook-Pro.local (28169)] INFO : Installing Rails 4 view instrumentation
+[2016-02-16 12:25:59 -0800 Matts-MacBook-Pro.local (28169)] INFO : Installing Rails 4 Error instrumentation
+[2016-02-16 12:25:59 -0800 Matts-MacBook-Pro.local (28169)] INFO : Finished instrumentation
+[2016-02-16 12:26:00 -0800 Matts-MacBook-Pro.local (28169)] INFO : Doing deferred dependency-detection before Rack startup
+[2016-02-16 12:26:00 -0800 Matts-MacBook-Pro.local (28169)] INFO : Starting Agent shutdown
+[2016-02-16 12:26:37 -0800 Matts-MacBook-Pro.local (28234)] INFO : Starting Agent shutdown
+[2016-02-16 12:26:43 -0800 Matts-MacBook-Pro.local (28259)] INFO : Starting Agent shutdown
+[2016-02-16 12:27:05 -0800 Matts-MacBook-Pro.local (28284)] INFO : Starting the New Relic agent in "production" environment.
+[2016-02-16 12:27:05 -0800 Matts-MacBook-Pro.local (28284)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2016-02-16 12:27:05 -0800 Matts-MacBook-Pro.local (28284)] INFO : Reading configuration from config/newrelic.yml (/Users/mattyee/reedbasketballtest)
+[2016-02-16 12:27:05 -0800 Matts-MacBook-Pro.local (28284)] INFO : Environment: production
+[2016-02-16 12:27:05 -0800 Matts-MacBook-Pro.local (28284)] INFO : No known dispatcher detected.
+[2016-02-16 12:27:05 -0800 Matts-MacBook-Pro.local (28284)] INFO : Application: Reed Open Gym
+[2016-02-16 12:27:06 -0800 Matts-MacBook-Pro.local (28284)] INFO : Installing ActiveJob instrumentation
+[2016-02-16 12:27:06 -0800 Matts-MacBook-Pro.local (28284)] INFO : Installing ActiveRecord 4 instrumentation
+[2016-02-16 12:27:06 -0800 Matts-MacBook-Pro.local (28284)] INFO : Installing Net instrumentation
+[2016-02-16 12:27:06 -0800 Matts-MacBook-Pro.local (28284)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-02-16 12:27:06 -0800 Matts-MacBook-Pro.local (28284)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-02-16 12:27:06 -0800 Matts-MacBook-Pro.local (28284)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-02-16 12:27:06 -0800 Matts-MacBook-Pro.local (28284)] INFO : Installing Rails 4 Controller instrumentation
+[2016-02-16 12:27:06 -0800 Matts-MacBook-Pro.local (28284)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1182125/applications/13235589
+[2016-02-16 12:27:06 -0800 Matts-MacBook-Pro.local (28284)] INFO : Installing Rails 4 view instrumentation
+[2016-02-16 12:27:06 -0800 Matts-MacBook-Pro.local (28284)] INFO : Installing Rails 4 Error instrumentation
+[2016-02-16 12:27:06 -0800 Matts-MacBook-Pro.local (28284)] INFO : Finished instrumentation
+[2016-02-16 12:43:36 -0800 Matts-MacBook-Pro.local (27814)] INFO : Starting Agent shutdown
+[2016-02-16 12:48:07 -0800 Matts-MacBook-Pro.local (27795)] INFO : Starting Agent shutdown
